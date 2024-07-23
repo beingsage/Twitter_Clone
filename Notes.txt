@@ -1,0 +1,22 @@
+1. All assests like images, graphics should be stored in assests.
+2. Sometimes for to solve and resolve errors we have to only restart applications.
+3. src, pages lowercase
+4. Login, Lists, Feed should be uppercase
+5. Files names should be uppercase starting.
+6. Everything should be started with app.js.
+7. for importing css files use import './login.css" and it does even recommends so you have to write this by your own.
+8. npm install firebase, npm install razorpay, npm install mui, npm install , 
+9. some basic commands are npm update, cd frontend, cd ..,  
+10. Copy the firebase sdk code and paste it in firebase.init.js 
+11. for seeing that firebase is installed or not check it in dependiceis in package.json
+12. rsc-- react stateless component 
+13. alt is neccessay
+14. image OR ASSESTS should be imorted 
+15. login-container , image-container, form- container 
+material ui install npm 
+material ui icon for importing icons
+import material ui icon
+button type submit
+import useState(react) useNavigate(react-router-dom)  routes route(react-router-dom)
+const require express razorpay cors MongoClient in backend index.js
+npm cache clean --force  
