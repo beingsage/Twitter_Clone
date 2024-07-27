@@ -1,5 +1,6 @@
-const express = require('express');   //
+const express = require('express');   
 const Razorpay = require("razorpay");
+const path = require('path');      //require for path for static files
 const cors = require('cors');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const app = express();
@@ -7,6 +8,19 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static(path.join(__dirname,'../frontend/build')));
+
+
+// MAKING A SERVER APPLICATION 
+app.get('*',(req,res =>{
+    res.sendFile(path.join(__dirname,'../frontend/build', 'index.html'));
+});
+
+const port =process.env.PORT || 5000;
+app.listen(port,()=> {
+    console.log(Server is running on port ${port});
+});
+)
 
 const uri = `mongodb+srv://twitter_admin:XkV80JAqGQBEEkrB@cluster0.bpb775a.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
