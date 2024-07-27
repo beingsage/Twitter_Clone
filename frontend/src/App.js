@@ -15,6 +15,14 @@ import Profile from "./pages/Profile/Profile";
 import More from "./pages/More/More";
 import Notifications from "./pages/Notifications/Notifications";
 import Premium from "./pages/Premium/Premium";
+// const mongoose = require('mongoose');
+// const db = require('../'); // Import your MongoDB connection
+// const Login = require('./Login'); // Import your Mongoose model
+
+
+
+
+
 
 function App() {
   return (
