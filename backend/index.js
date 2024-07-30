@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(useragent.express());
 
 // Mongo DB Atlas String Connection
-const mongoURI = 'mongodb://localhost:27017'; // or your MongoDB Atlas connection string
+const mongoURI = "mongodb://localhost:27017/logincreds"; // or your MongoDB Atlas connection string
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -39,6 +39,8 @@ const secretKey = 'your-secret-key';
 app.use(cors());
 app.use(express.static(path.join(__dirname, '../frontend/build')));
 
+
+//middleware for tracking
 app.post('/api/login', (req, res) => {
     const loginInfo = {
         ip: req.ip,

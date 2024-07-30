@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1da0f21f;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+.premium-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    width: 1000px;
+    height: 570px;
+    margin: 50px auto;
+}
+
+.premium-heading {
+    font-size: 40px;
+    color: #1da1f2;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.premium-subheading {
+    font-size: 16px;
+    font-weight:500; 
+    color: #657786;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+.premium-plan-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #14171a;
+    background-color: #2885c8;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    width: 250px;
+    margin-left: 300px;
+    height: 30px;
+
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #14171a;
+    margin-bottom: 10px;
+    width: 150px;
+    flex-wrap: nowrap;
+    
+}
+.premium-plan-annual{
+    padding-top: 10px;
+}
+
+
+
+
+.d{
+    
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.c{
+    background-color: #0d8de0;
+}
+
+.plans{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+.premium-plans {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flexbox;
+}
+
+.premium-plan-best-value {
+    background: #ffd700;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.premium-plan-details h3 {
+    font-size: 20px;
+    color: #1da1f2;
+    margin-bottom: 10px;
+}
+
+.premium-plan-price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.premium-plan-price h1 {
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.premium-plan-price h4 {
+    font-size: 16px;
+    color: #657786;
+}
+
+.billed-annually {
+    font-size: 14px;
+    color: #657786;
+    margin-top: -10px;
+}
+
+.savings {
+    font-size: 14px;
+    color: #1da1f2;
+    margin-bottom: 10px;
+}
+
+.premium-plan-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.premium-plan-details ul li {
+    font-size: 14px;
+    color: #14171a;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.premium-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.premium-subscribe-button {
+    background-color: #1da1f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-bottom:10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.premium-subscribe-button:hover {
+    background-color: #0d8de0;
+}
+
+.premium-terms {
+    font-size: 12px;
+    color: #657786;
+    margin-top: 10px;
+}
+
+.premium-terms a {
+    color: #1da1f2;
+    text-decoration: none;
+}
+
+.premium-terms a:hover {
+    text-decoration: underline;
+}
+
+.premium-plans.selected {
+    border: 2px solid #1DA1F2; /* Example highlight */
+    background-color: #f0f8ff; /* Example background */
+}
+
+.premium-plan-title button.active {
+    font-weight: bold;
+    color: #1DA1F2; /* Match your branding color */
+}
